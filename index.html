@@ -128,18 +128,15 @@
         "jobTitle": "WordPress Expert & Web Developer",
         "description": "Expert WordPress developer and website designer freelancer specializing in custom WordPress themes, WooCommerce development, responsive web design, and modern web solutions.",
         "url": "https://sowravhasan.github.io/",
-        "mainEntityOfPage": "https://sowravhasan.github.io/",
+        "mainEntityOfPage": {
+            "@type": "WebPage",
+            "@id": "https://sowravhasan.github.io/"
+        },
         "image": {
             "@type": "ImageObject",
             "url": "https://i.ibb.co/Y7PsKqZ/IMG-2041.jpg",
             "width": 400,
             "height": 400
-        },
-        "logo": {
-            "@type": "ImageObject",
-            "url": "https://i.ibb.co/Kw55CGp/logo.png",
-            "width": 100,
-            "height": 100
         },
         "sameAs": [
             "https://web.facebook.com/sowravhasan0",
@@ -163,6 +160,7 @@
             "streetAddress": "Dhaka, Bangladesh"
         },
         "email": "sowravhasan101@gmail.com",
+        "telephone": "+880-1882408643",
         "worksFor": {
             "@type": "Organization",
             "name": "Freelance"
@@ -194,25 +192,21 @@
             "description": "Expert WordPress developer and website designer freelancer",
             "qualifications": "3+ years experience, 150+ projects completed",
             "estimatedSalary": {
-                "@type": "MonetaryAmount",
+                "@type": "MonetaryAmountDistribution",
                 "currency": "USD",
-                "value": {
-                    "@type": "QuantitativeValue",
-                    "minValue": 25,
-                    "maxValue": 75,
-                    "unitText": "HOUR"
-                }
+                "duration": "P1H",
+                "median": 50
             },
-            "occupationLocation": {
-                "@type": "Place",
-                "name": "Worldwide (Remote)",
-                "address": {
-                    "@type": "PostalAddress",
-                    "addressCountry": "BD",
-                    "addressRegion": "Dhaka Division",
-                    "addressLocality": "Dhaka"
+            "occupationLocation": [
+                {
+                    "@type": "Country",
+                    "name": "Bangladesh"
+                },
+                {
+                    "@type": "Country", 
+                    "name": "Global"
                 }
-            },
+            ],
             "responsibilities": [
                 "Custom WordPress theme development",
                 "WooCommerce store creation",
@@ -220,9 +214,7 @@
                 "SEO implementation",
                 "Responsive web design"
             ]
-        },
-        "telephone": "+880-1882408643",
-        "priceRange": "$25 - $75 per hour"
+        }
     }
     </script>
 
