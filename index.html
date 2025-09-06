@@ -118,16 +118,17 @@
     <!-- Security.txt -->
     <link rel="security" href="/.well-known/security.txt">
 
-    <!-- Enhanced Structured Data for SEO -->
+    <!-- Enhanced Person Schema Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
-        "@type": ["Person", "ProfessionalService"],
+        "@type": "Person",
         "name": "Sowrav Hasan",
         "alternateName": "Sowrav Hasan WordPress Expert",
         "jobTitle": "WordPress Expert & Web Developer",
         "description": "Expert WordPress developer and website designer freelancer specializing in custom WordPress themes, WooCommerce development, responsive web design, and modern web solutions.",
         "url": "https://sowravhasan.github.io/",
+        "mainEntityOfPage": "https://sowravhasan.github.io/",
         "image": {
             "@type": "ImageObject",
             "url": "https://i.ibb.co/Y7PsKqZ/IMG-2041.jpg",
@@ -158,22 +159,14 @@
             "addressCountry": "BD",
             "addressRegion": "Dhaka Division",
             "addressLocality": "Dhaka",
-            "postalCode": "1000"
+            "postalCode": "1000",
+            "streetAddress": "Dhaka, Bangladesh"
         },
         "email": "sowravhasan101@gmail.com",
         "worksFor": {
             "@type": "Organization",
             "name": "Freelance"
         },
-        "serviceType": [
-            "WordPress Development",
-            "Website Design",
-            "Web Development",
-            "WooCommerce Development",
-            "WordPress Customization",
-            "SEO Optimization",
-            "Website Maintenance"
-        ],
         "knowsAbout": [
             "WordPress Development",
             "WordPress Expert",
@@ -200,6 +193,26 @@
             "name": "WordPress Developer",
             "description": "Expert WordPress developer and website designer freelancer",
             "qualifications": "3+ years experience, 150+ projects completed",
+            "estimatedSalary": {
+                "@type": "MonetaryAmount",
+                "currency": "USD",
+                "value": {
+                    "@type": "QuantitativeValue",
+                    "minValue": 25,
+                    "maxValue": 75,
+                    "unitText": "HOUR"
+                }
+            },
+            "occupationLocation": {
+                "@type": "Place",
+                "name": "Worldwide (Remote)",
+                "address": {
+                    "@type": "PostalAddress",
+                    "addressCountry": "BD",
+                    "addressRegion": "Dhaka Division",
+                    "addressLocality": "Dhaka"
+                }
+            },
             "responsibilities": [
                 "Custom WordPress theme development",
                 "WooCommerce store creation",
@@ -207,11 +220,13 @@
                 "SEO implementation",
                 "Responsive web design"
             ]
-        }
+        },
+        "telephone": "+880-1882408643",
+        "priceRange": "$25 - $75 per hour"
     }
     </script>
 
-    <!-- Additional Structured Data for Professional Service -->
+    <!-- Enhanced Professional Service Schema Data -->
     <script type="application/ld+json">
     {
         "@context": "https://schema.org",
@@ -219,15 +234,33 @@
         "name": "Sowrav Hasan WordPress Development Services",
         "alternateName": "WordPress Expert Services",
         "description": "Professional WordPress development and website design services by Sowrav Hasan. Specializing in custom themes, WooCommerce stores, and modern web solutions.",
-        "provider": {
-            "@type": "Person",
-            "name": "Sowrav Hasan"
+        "url": "https://sowravhasan.github.io/",
+        "image": {
+            "@type": "ImageObject",
+            "url": "https://i.ibb.co/Y7PsKqZ/IMG-2041.jpg",
+            "width": 400,
+            "height": 400
         },
-        "serviceType": "WordPress Development",
+        "employee": {
+            "@type": "Person",
+            "name": "Sowrav Hasan",
+            "email": "sowravhasan101@gmail.com",
+            "telephone": "+880-1882408643"
+        },
         "areaServed": {
             "@type": "Place",
             "name": "Worldwide"
         },
+        "address": {
+            "@type": "PostalAddress",
+            "addressCountry": "BD",
+            "addressRegion": "Dhaka Division",
+            "addressLocality": "Dhaka",
+            "postalCode": "1000",
+            "streetAddress": "Dhaka, Bangladesh"
+        },
+        "telephone": "+880-1882408643",
+        "priceRange": "$25 - $75 per hour",
         "hasOfferCatalog": {
             "@type": "OfferCatalog",
             "name": "WordPress Services",
