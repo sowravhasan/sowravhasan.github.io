@@ -1,44 +1,47 @@
 <svg width="180" height="180" viewBox="0 0 180 180" fill="none"
     xmlns="http://www.w3.org/2000/svg">
-    <!-- Background Circle with Gradient -->
-    <circle cx="90" cy="90" r="90" fill="url(#gradient)" />
+    <!-- Background Circle with Purple Gradient -->
+    <circle cx="90" cy="90" r="90" fill="url(#purpleGradient)" />
 
-    <!-- WordPress-inspired design with development elements -->
+    <!-- WordPress and Development Elements -->
     <g transform="translate(90,90)">
-        <!-- Central W shape -->
-        <path d="M-35 -10L-15 35L5 -25L25 35L45 -10" stroke="white" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+        <!-- WordPress W shape -->
+        <path d="M-40 -15L-20 40L5 -30L30 40L50 -15" stroke="white" stroke-width="7" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+
+        <!-- SH Initials -->
+        <text x="0" y="-45" text-anchor="middle" fill="white" font-family="Arial, sans-serif" font-size="28" font-weight="bold">SH</text>
 
         <!-- Development brackets -->
-        <path d="M-60 10L-50 0L-60 -10M60 -10L50 0L60 10" stroke="white" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M-65 15L-50 0L-65 -15" stroke="rgba(255,255,255,0.9)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M65 -15L50 0L65 15" stroke="rgba(255,255,255,0.9)" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
 
-        <!-- Small dots representing code/pixels -->
-        <circle cx="-40" cy="-35" r="3" fill="rgba(255,255,255,0.8)"/>
-        <circle cx="40" cy="-35" r="3" fill="rgba(255,255,255,0.8)"/>
-        <circle cx="0" cy="50" r="3" fill="rgba(255,255,255,0.8)"/>
+        <!-- WordPress dots -->
+        <circle cx="-45" cy="-40" r="4" fill="rgba(255,255,255,0.8)"/>
+        <circle cx="45" cy="-40" r="4" fill="rgba(255,255,255,0.8)"/>
 
-        <!-- Subtle grid pattern -->
-        <g opacity="0.2">
-            <line x1="-70" y1="-70" x2="70" y2="-70" stroke="white" stroke-width="1"/>
-            <line x1="-70" y1="-35" x2="70" y2="-35" stroke="white" stroke-width="1"/>
-            <line x1="-70" y1="0" x2="70" y2="0" stroke="white" stroke-width="1"/>
-            <line x1="-70" y1="35" x2="70" y2="35" stroke="white" stroke-width="1"/>
-            <line x1="-70" y1="70" x2="70" y2="70" stroke="white" stroke-width="1"/>
+        <!-- Code elements -->
+        <circle cx="-25" cy="55" r="3" fill="rgba(255,255,255,0.6)"/>
+        <circle cx="0" cy="60" r="3" fill="rgba(255,255,255,0.6)"/>
+        <circle cx="25" cy="55" r="3" fill="rgba(255,255,255,0.6)"/>
 
-            <line y1="-70" x1="-70" y2="70" x2="-70" stroke="white" stroke-width="1"/>
-            <line y1="-70" x1="-35" y2="70" x2="-35" stroke="white" stroke-width="1"/>
-            <line y1="-70" x1="0" y2="70" x2="0" stroke="white" stroke-width="1"/>
-            <line y1="-70" x1="35" y2="70" x2="35" stroke="white" stroke-width="1"/>
-            <line y1="-70" x1="70" y2="70" x2="70" stroke="white" stroke-width="1"/>
+        <!-- Subtle development grid -->
+        <g opacity="0.15">
+            <line x1="-75" y1="-25" x2="75" y2="-25" stroke="white" stroke-width="1"/>
+            <line x1="-75" y1="0" x2="75" y2="0" stroke="white" stroke-width="1"/>
+            <line x1="-75" y1="25" x2="75" y2="25" stroke="white" stroke-width="1"/>
+            <line x1="-25" y1="-75" x2="-25" y2="75" stroke="white" stroke-width="1"/>
+            <line x1="0" y1="-75" x2="0" y2="75" stroke="white" stroke-width="1"/>
+            <line x1="25" y1="-75" x2="25" y2="75" stroke="white" stroke-width="1"/>
         </g>
     </g>
 
     <!-- Gradient Definition -->
     <defs>
-        <linearGradient id="gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+        <linearGradient id="purpleGradient" x1="0%" y1="0%" x2="100%" y2="100%">
             <stop offset="0%" style="stop-color:#8B5CF6;stop-opacity:1" />
-            <stop offset="30%" style="stop-color:#06B6D4;stop-opacity:1" />
-            <stop offset="70%" style="stop-color:#10B981;stop-opacity:1" />
-            <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+            <stop offset="40%" style="stop-color:#7C3AED;stop-opacity:1" />
+            <stop offset="80%" style="stop-color:#6D28D9;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#5B21B6;stop-opacity:1" />
         </linearGradient>
     </defs>
 </svg>
