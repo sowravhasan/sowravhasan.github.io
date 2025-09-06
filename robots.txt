@@ -1,4 +1,110 @@
 User-agent: *
 Allow: /
 
+# Sitemap location
 Sitemap: https://sowravhasan.github.io/sitemap.xml
+
+# RSS Feed location  
+Sitemap: https://sowravhasan.github.io/rss.xml
+
+# Allow crawling of important pages and directories
+Allow: /index.html
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /manifest.json
+Allow: /humans.txt
+Allow: /rss.xml
+Allow: /sitemap.xml
+
+# Prevent crawling of sensitive or unnecessary files
+Disallow: /.git/
+Disallow: /.vscode/
+Disallow: /.gitignore
+Disallow: /CONTRIBUTING.md
+Disallow: /CHANGELOG.md
+Disallow: /LICENSE
+Disallow: /SEO-CHECKLIST.md
+Disallow: /.well-known/
+
+# Special instructions for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 1
+
+# Block potential spam bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+User-agent: AhrefsBot
+Disallow: /
+
+# Allow social media crawlers for better sharing
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /
+
+User-agent: TelegramBot
+Allow: /
+
+# Special instructions for major search engines
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 1
+
+User-agent: Slurp
+Allow: /
+Crawl-delay: 1
+
+# Block potential spam bots
+User-agent: MJ12bot
+Disallow: /
+
+User-agent: DotBot
+Disallow: /
+
+User-agent: SemrushBot
+Disallow: /
+
+# Allow social media crawlers for better sharing
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+User-agent: LinkedInBot
+Allow: /
+
+User-agent: WhatsApp
+Allow: /

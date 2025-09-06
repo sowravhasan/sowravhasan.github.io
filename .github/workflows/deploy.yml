@@ -1,0 +1,82 @@
+# GitHub Pages Deployment Workflow for Sowrav Hasan Portfolio
+name: Deploy to GitHub Pages
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+    branches: [main, master]
+  # Allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+jobs:
+  # Build job
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: "18"
+          cache: "npm"
+
+      - name: Install dependencies
+        run: |
+          if [ -f package.json ]; then
+            npm ci
+          else
+            npm init -y
+            npm install --save-dev html-minifier clean-css-cli uglify-js
+          fi
+
+      - name: Optimize assets
+        run: |
+          # Create optimized directory
+          mkdir -p optimized
+
+          # Copy all files first
+          cp -r . optimized/ 2>/dev/null || true
+
+          # Remove unnecessary files from optimized directory
+          rm -rf optimized/.git optimized/.github optimized/node_modules optimized/optimized
+
+          # Minify CSS files
+          find optimized/css -name "*.css" ! -name "*.min.css" -type f -exec sh -c 'cleancss -o "${0%.css}.min.css" "$0" && rm "$0"' {} \;
+
+          # Minify JS files  
+          find optimized/js -name "*.js" ! -name "*.min.js" -type f -exec sh -c 'uglifyjs "$0" -o "${0%.js}.min.js" && rm "$0"' {} \;
+
+          # Minify HTML
+          find optimized -name "*.html" -type f -exec html-minifier --collapse-whitespace --remove-comments --minify-css --minify-js -o {} {} \;
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "optimized"
+
+  # Deployment job
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

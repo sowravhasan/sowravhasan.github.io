@@ -1,0 +1,9 @@
+Contact: mailto:sowravhasan101@gmail.com
+Contact: https://wa.me/8801882408643
+Expires: 2026-12-31T23:59:59.000Z
+Encryption: https://sowravhasan.github.io/pgp-key.txt
+Preferred-Languages: en, bn
+Canonical: https://sowravhasan.github.io/.well-known/security.txt
+Policy: https://sowravhasan.github.io/security-policy.html
+Acknowledgments: https://sowravhasan.github.io/security-acknowledgments.html
+Hiring: https://sowravhasan.github.io/#contact

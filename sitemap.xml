@@ -1,9 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+  xmlns:news="http://www.google.com/schemas/sitemap-news/0.9"
+  xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+
+  <!-- Homepage with Portfolio Images -->
   <url>
     <loc>https://sowravhasan.github.io/</loc>
-    <lastmod>2025-08-04</lastmod>
-    <changefreq>monthly</changefreq>
+    <lastmod>2025-09-06T12:00:00+06:00</lastmod>
+    <changefreq>weekly</changefreq>
     <priority>1.0</priority>
+
+    <!-- Profile Image -->
+    <image:image>
+      <image:loc>https://i.ibb.co/Y7PsKqZ/IMG-2041.jpg</image:loc>
+      <image:caption>Sowrav Hasan - WordPress Expert and Web Developer Portfolio Photo</image:caption>
+      <image:title>Sowrav Hasan - Professional WordPress Developer in Bangladesh</image:title>
+    </image:image>
+
+    <!-- Portfolio Project Images -->
+    <image:image>
+      <image:loc>https://sowravhasan.github.io/images/portfolio/Ecommerce-Jewellery-Website.webp</image:loc>
+      <image:caption>WordPress WooCommerce Jewellery E-commerce Website by Sowrav Hasan</image:caption>
+      <image:title>Jewellery E-commerce Store - WooCommerce Development</image:title>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://sowravhasan.github.io/images/portfolio/App-Landing-Page.webp</image:loc>
+      <image:caption>Mobile App Landing Page Design by Sowrav Hasan WordPress Developer</image:caption>
+      <image:title>Mobile App Landing Page - Conversion Optimized Design</image:title>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://sowravhasan.github.io/images/portfolio/E-Commerce-Website-Using-Bootstap.webp</image:loc>
+      <image:caption>Bootstrap E-commerce Website Development by Sowrav Hasan</image:caption>
+      <image:title>Bootstrap E-commerce Website - Responsive Design</image:title>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://sowravhasan.github.io/images/portfolio/SEO-Landing-Page.webp</image:loc>
+      <image:caption>SEO Landing Page Design and Development by Sowrav Hasan</image:caption>
+      <image:title>SEO Service Landing Page - Optimized for Search Engines</image:title>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://sowravhasan.github.io/images/portfolio/Foodies.webp</image:loc>
+      <image:caption>Restaurant Website Design and Development by Sowrav Hasan</image:caption>
+      <image:title>Restaurant Website - Custom Design and Online Ordering</image:title>
+    </image:image>
+
+    <image:image>
+      <image:loc>https://sowravhasan.github.io/images/portfolio/HeadPhones.webp</image:loc>
+      <image:caption>Product Landing Page for Headphones by Sowrav Hasan</image:caption>
+      <image:title>Product Showcase Landing Page - E-commerce Design</image:title>
+    </image:image>
   </url>
+
+  <!-- About Section -->
+  <url>
+    <loc>https://sowravhasan.github.io/#about</loc>
+    <lastmod>2025-09-06T12:00:00+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Services Section -->
+  <url>
+    <loc>https://sowravhasan.github.io/#services</loc>
+    <lastmod>2025-09-06T12:00:00+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Portfolio Section -->
+  <url>
+    <loc>https://sowravhasan.github.io/#portfolio</loc>
+    <lastmod>2025-09-06T12:00:00+06:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Pricing Section -->
+  <url>
+    <loc>https://sowravhasan.github.io/#pricing</loc>
+    <lastmod>2025-09-06T12:00:00+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Contact Section -->
+  <url>
+    <loc>https://sowravhasan.github.io/#contact</loc>
+    <lastmod>2025-09-06T12:00:00+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Testimonials Section -->
+  <url>
+    <loc>https://sowravhasan.github.io/#testimonials</loc>
+    <lastmod>2025-09-06T12:00:00+06:00</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+
+  <!-- RSS Feed -->
+  <url>
+    <loc>https://sowravhasan.github.io/rss.xml</loc>
+    <lastmod>2025-09-06T12:00:00+06:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Humans.txt -->
+  <url>
+    <loc>https://sowravhasan.github.io/humans.txt</loc>
+    <lastmod>2025-09-06T12:00:00+06:00</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
 </urlset>

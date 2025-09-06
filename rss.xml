@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/">
+    <channel>
+        <title>Sowrav Hasan - WordPress Expert Portfolio</title>
+        <link>https://sowravhasan.github.io/</link>
+        <description>Professional WordPress Developer and Website Designer Freelancer specializing in custom WordPress themes, WooCommerce development, responsive web design, and SEO optimization.</description>
+        <language>en-US</language>
+        <lastBuildDate>Fri, 06 Sep 2025 00:00:00 +0000</lastBuildDate>
+        <pubDate>Fri, 06 Sep 2025 00:00:00 +0000</pubDate>
+        <ttl>1440</ttl>
+        <managingEditor>sowravhasan101@gmail.com (Sowrav Hasan)</managingEditor>
+        <webMaster>sowravhasan101@gmail.com (Sowrav Hasan)</webMaster>
+        <copyright>© 2025 Sowrav Hasan. All rights reserved.</copyright>
+        <category>Web Development</category>
+        <category>WordPress</category>
+        <category>Freelancing</category>
+        <image>
+            <url>https://i.ibb.co/Y7PsKqZ/IMG-2041.jpg</url>
+            <title>Sowrav Hasan - WordPress Expert</title>
+            <link>https://sowravhasan.github.io/</link>
+            <width>144</width>
+            <height>144</height>
+        </image>
+        <atom:link href="https://sowravhasan.github.io/rss.xml" rel="self" type="application/rss+xml" />
+
+        <!-- Portfolio Updates -->
+        <item>
+            <title>Portfolio Website Launch - Modern WordPress Expert Portfolio</title>
+            <link>https://sowravhasan.github.io/</link>
+            <description>Launching my new professional portfolio website showcasing WordPress development expertise, custom themes, WooCommerce stores, and modern web solutions.</description>
+            <content:encoded><![CDATA[
+        <p>I'm excited to launch my new professional portfolio website! This modern, SEO-optimized site showcases my expertise in:</p>
+        <ul>
+          <li><strong>WordPress Development</strong> - Custom themes and complex solutions</li>
+          <li><strong>WooCommerce Development</strong> - Complete e-commerce stores</li>
+          <li><strong>Responsive Web Design</strong> - Mobile-first, modern designs</li>
+          <li><strong>SEO Optimization</strong> - Technical SEO and performance</li>
+          <li><strong>Modern Web Technologies</strong> - React, PHP, JavaScript</li>
+        </ul>
+        <p>The site features a clean, professional design with dark/light mode toggle, smooth animations, and comprehensive project showcase. Built with performance and SEO in mind, it demonstrates my commitment to creating high-quality web solutions.</p>
+        <p>Key features include:</p>
+        <ul>
+          <li>Comprehensive portfolio showcasing 150+ completed projects</li>
+          <li>Service packages tailored for different business needs</li>
+          <li>Client testimonials and success stories</li>
+          <li>Easy contact options including WhatsApp integration</li>
+          <li>Mobile-responsive design for all devices</li>
+        </ul>
+        <p>Ready to transform your business with professional WordPress solutions? <a href="https://sowravhasan.github.io/#contact">Get in touch today!</a></p>
+      ]]>            </content:encoded>
+            <category>Portfolio</category>
+            <category>WordPress</category>
+            <category>Web Development</category>
+            <pubDate>Fri, 06 Sep 2025 00:00:00 +0000</pubDate>
+            <guid isPermaLink="false">sowravhasan-portfolio-launch-2025</guid>
+            <author>sowravhasan101@gmail.com (Sowrav Hasan)</author>
+        </item>
+
+        <!-- Services Update -->
+        <item>
+            <title>New Service Packages - WordPress Development Solutions</title>
+            <link>https://sowravhasan.github.io/#pricing</link>
+            <description>Introducing comprehensive WordPress development service packages designed to meet diverse business needs - from startups to enterprise-level projects.</description>
+            <content:encoded><![CDATA[
+        <p>I'm pleased to announce new structured service packages for WordPress development projects:</p>
+        
+        <h3>Starter Package ($299)</h3>
+        <p>Perfect for small businesses and startups:</p>
+        <ul>
+          <li>Custom WordPress Theme</li>
+          <li>Responsive Design</li>
+          <li>5 Pages Setup</li>
+          <li>Contact Form Integration</li>
+          <li>Basic SEO Optimization</li>
+          <li>1 Month Support</li>
+        </ul>
+
+        <h3>Professional Package ($699)</h3>
+        <p>Ideal for growing businesses:</p>
+        <ul>
+          <li>Everything in Starter Package</li>
+          <li>E-commerce Integration (WooCommerce)</li>
+          <li>Payment Gateway Setup</li>
+          <li>Advanced SEO Optimization</li>
+          <li>Performance Optimization</li>
+          <li>Social Media Integration</li>
+          <li>3 Months Support</li>
+        </ul>
+
+        <h3>Enterprise Package ($1299)</h3>
+        <p>For large-scale and complex projects:</p>
+        <ul>
+          <li>Everything in Professional Package</li>
+          <li>Custom Plugin Development</li>
+          <li>Advanced E-commerce Features</li>
+          <li>Multi-language Support</li>
+          <li>Security Hardening</li>
+          <li>Performance Monitoring</li>
+          <li>6 Months Support</li>
+        </ul>
+
+        <p>Each package includes comprehensive testing, documentation, and ongoing support. <a href="https://wa.me/8801882408643">Contact me on WhatsApp</a> to discuss your project requirements!</p>
+      ]]>            </content:encoded>
+            <category>Services</category>
+            <category>WordPress</category>
+            <category>Pricing</category>
+            <pubDate>Thu, 05 Sep 2025 00:00:00 +0000</pubDate>
+            <guid isPermaLink="false">wordpress-service-packages-2025</guid>
+            <author>sowravhasan101@gmail.com (Sowrav Hasan)</author>
+        </item>
+
+        <!-- WordPress Expertise -->
+        <item>
+            <title>WordPress Development Expertise - Custom Themes and Solutions</title>
+            <link>https://sowravhasan.github.io/#services</link>
+            <description>Showcasing expertise in WordPress development, custom theme creation, WooCommerce integration, and modern web development practices.</description>
+            <content:encoded><![CDATA[
+        <p>With over 3 years of WordPress development experience and 150+ completed projects, I specialize in creating high-performance websites that drive business growth.</p>
+        
+        <h3>WordPress Development Services:</h3>
+        <ul>
+          <li><strong>Custom Theme Development</strong> - Pixel-perfect designs tailored to your brand</li>
+          <li><strong>Plugin Development</strong> - Custom functionality for specific business needs</li>
+          <li><strong>Performance Optimization</strong> - Lightning-fast loading speeds</li>
+          <li><strong>Security Implementation</strong> - Robust security measures and best practices</li>
+          <li><strong>SEO Integration</strong> - Technical SEO and optimization strategies</li>
+        </ul>
+
+        <h3>WooCommerce Expertise:</h3>
+        <ul>
+          <li>Complete e-commerce store setup</li>
+          <li>Payment gateway integration</li>
+          <li>Inventory management systems</li>
+          <li>Custom product configurations</li>
+          <li>Conversion optimization</li>
+        </ul>
+
+        <h3>Modern Web Technologies:</h3>
+        <ul>
+          <li>React.js integration with WordPress</li>
+          <li>RESTful API development</li>
+          <li>Headless WordPress solutions</li>
+          <li>Progressive Web App (PWA) implementation</li>
+          <li>Mobile-first responsive design</li>
+        </ul>
+
+        <p>Ready to elevate your online presence? <a href="https://sowravhasan.github.io/#contact">Let's discuss your project</a> and create something amazing together!</p>
+      ]]>            </content:encoded>
+            <category>WordPress</category>
+            <category>Development</category>
+            <category>Expertise</category>
+            <pubDate>Wed, 04 Sep 2025 00:00:00 +0000</pubDate>
+            <guid isPermaLink="false">wordpress-development-expertise-2025</guid>
+            <author>sowravhasan101@gmail.com (Sowrav Hasan)</author>
+        </item>
+
+    </channel>
+</rss>

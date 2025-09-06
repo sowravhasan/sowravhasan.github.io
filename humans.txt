@@ -1,0 +1,67 @@
+# Sowrav Hasan - WordPress Expert Portfolio
+
+/* TEAM */
+Developer: Sowrav Hasan
+Site: https://sowravhasan.github.io/
+Email: sowravhasan101@gmail.com
+WhatsApp: +8801882408643
+Location: Dhaka, Bangladesh
+Social: linkedin.com/in/sowrav-hasan/
+Social: github.com/sowravhasan
+Social: facebook.com/sowravhasan0
+
+/* THANKS */
+Bootstrap Team - https://getbootstrap.com/
+Font Awesome - https://fontawesome.com/
+Google Fonts - https://fonts.google.com/
+Unsplash - https://unsplash.com/
+WordPress Community - https://wordpress.org/
+
+/* SITE */
+Last Updated: 2025/09/06
+Language: English
+Standards: HTML5, CSS3, JavaScript ES6+
+Components: Bootstrap 5.3.3, Font Awesome 6.6.0
+Software: VS Code, GitHub, Adobe XD
+Hosting: GitHub Pages
+Domain: sowravhasan.github.io
+
+/* SPECIALTIES */
+WordPress Development
+WooCommerce Development  
+Custom Theme Development
+Responsive Web Design
+SEO Optimization
+Website Performance
+E-commerce Solutions
+Modern Web Development
+PHP Development
+JavaScript Development
+
+/* SERVICES */
+WordPress Expert Services
+Custom WordPress Themes
+WooCommerce Store Development
+Website Maintenance & Support
+SEO & Performance Optimization
+Responsive Web Design
+Landing Page Development
+WordPress Plugin Development
+Website Security & Updates
+Technical Consultation
+
+/* CONTACT */
+Ready for a new project?
+Email: sowravhasan101@gmail.com
+WhatsApp: https://wa.me/8801882408643
+LinkedIn: https://www.linkedin.com/in/sowrav-hasan/
+Portfolio: https://sowravhasan.github.io/
+
+/* STATS */
+Experience: 3+ Years
+Projects Completed: 150+
+Happy Clients: 85+
+Websites Deployed: 200+
+Lines of Code: 100,000+
+
+Happy coding! 🚀
